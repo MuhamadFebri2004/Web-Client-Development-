@@ -1,0 +1,37 @@
+// JavaScript implementation
+
+// Function to calculate area of rectangle
+function rectangleArea(length, width) {
+    return length * width;
+}
+
+// Function to calculate diameter, circumference, and area of a circle
+function circleCalculations(radius) {
+    let diameter = 2 * radius;
+    let circumference = 2 * Math.PI * radius;
+    let area = Math.PI * radius * radius;
+    return { diameter, circumference, area };
+}
+
+// Function to find third angle of triangle
+to function findTriangleAngle(a, b) {
+    return 180 - (a + b);
+}
+
+// Function to get difference between two dates
+function dateDifference(date1, date2) {
+    let diffTime = Math.abs(new Date(date2) - new Date(date1));
+    return diffTime / (1000 * 60 * 60 * 24);
+}
+
+// Function to get initials from a name
+function getInitials(name) {
+    return name.split(' ').map(word => word.charAt(0).toUpperCase()).join('');
+}
+
+// Example Usage
+console.log(rectangleArea(5, 3)); // Output: 15
+console.log(circleCalculations(5)); // Output: {diameter: 10, circumference: 31.4159, area: 78.539}
+console.log(findTriangleAngle(80, 65)); // Output: 35
+console.log(dateDifference('2024-03-19', '2024-03-21')); // Output: 2
+console.log(getInitials('John Doe')); // Output: JD
