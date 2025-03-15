@@ -1,4 +1,5 @@
 JavaScript and TypeScript Solutions
+
 Description
 This project provides JavaScript and TypeScript implementations for solving common programming problems related to geometry and string manipulation.
 Features
